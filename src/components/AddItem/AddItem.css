@@ -1,0 +1,21 @@
+.add-item {
+    display: flex;
+    flex: 1;
+    width: calc(100% - 40px);
+    margin: 20px;
+    justify-content: center;
+}
+
+.add-item input {
+    padding: 10px;
+}
+
+.add-item button {
+    background-color: navy;
+    margin-left: 10px;
+    color: white;
+}
+
+.error-message {
+    color: red;
+}
